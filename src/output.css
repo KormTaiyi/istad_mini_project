@@ -585,6 +585,10 @@ video {
   top: 1.5rem;
 }
 
+.gap-y-4{
+  row-gap:1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -600,6 +604,9 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+.m-4 {
+  margin: 1rem;
 }
 
 .mt-4 {
@@ -632,14 +639,13 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.my-2{
+  margin: 0.5rem 0;
+}
 .my-12{
   margin-top: 3rem;
   margin-bottom: 3rem; 
 }
-.my-2{
-  padding: 8px 0;
-}
-
 .block {
   display: block;
 }
@@ -739,6 +745,9 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -901,6 +910,9 @@ video {
 
 .text-center {
   text-align: center;
+}
+.text-justify{
+  text-align: justify;
 }
 
 .text-3xl {
@@ -1323,4 +1335,10 @@ video {
   .xl\:p-0 {
     padding: 0px;
   }
+}
+
+.rainbow{
+  background: conic-gradient(rgb(240, 7, 54), rgb(5, 231, 231), yellow);
+  background-clip: text;
+  color: transparent;
 }
