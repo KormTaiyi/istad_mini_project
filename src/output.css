@@ -353,7 +353,8 @@ button,
 input:where([type="button"]),
 input:where([type="reset"]),
 input:where([type="submit"]) {
-  -webkit-appearance: button;
+  -webkit-appearance: none;
+  appearance: none;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -400,10 +401,9 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  appearance: none;
+  -webkit-appearance: none; /* For Safari */
+
 }
 
 /*
@@ -539,10 +539,8 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
-  /* 1 */
+  display: inline-block;
   vertical-align: middle;
-  /* 2 */
 }
 
 /*
@@ -575,7 +573,6 @@ video {
 .overflow-hidden{
   overflow: hidden;
 }
-
 .absolute {
   position: absolute;
 }
@@ -775,7 +772,7 @@ video {
 }
 
 .border {
-  border-width: 1px;
+  border: 1px solid green;
 }
 
 .border-b {
@@ -797,22 +794,16 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85);
-}
-.bg-gray-700{
-  background-color: rgb(55 65 81);
-}
 .bg-neutral-700{
   background-color: rgb(64 64 64);
 }
-.bg-red-300{
-  background-color: rgb(252 165 165);
-}
+
 .text-green-400 {
   --tw-bg-opacity: 1;
   color: green;
+}
+.text-rose-600{
+  color: rgb(225 29 72);
 }
 
 .bg-primary-700 {
@@ -850,6 +841,9 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+.p-x{
+  padding: 0.20rem 1rem;
 }
 
 .p-5 {
