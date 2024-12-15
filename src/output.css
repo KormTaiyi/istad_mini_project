@@ -624,9 +624,6 @@ video {
 .bg-neutral-500{
   background-color: #212121;
 }
-.carrot{
-  color: #FF675B;
-}
 
 .bg-white {
   --tw-bg-opacity: 1;
@@ -773,9 +770,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-pink-600{
-  color: rgb(219 39 119);
 }
 
 .hover\:bg-gray-100:hover {

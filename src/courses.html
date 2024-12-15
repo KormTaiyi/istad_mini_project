@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -59,7 +61,7 @@
     </main>
     <!--  -->
     <section class="w-90 mx-auto py-8 flex flex-wrap justify-evenly gap-y-4">
-        <div class="w-85 rounded-xl overflow-hidden">
+        <div class="w-85 rounded-xl overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
             <img src="./img/download.jpeg" alt="" class="w-full h-60">
             <div class="w-full min-h-150 bg-neutral-700 p-2">
                 <a href="HtmlAndCss.html">
@@ -73,7 +75,7 @@
             </div>
         </div>
         <!--  -->
-        <div class="w-85 rounded-xl overflow-hidden">
+        <div class="w-85 rounded-xl overflow-hidden" data-aos="zoom-in-up" data-aos-duration="1500">
             <img src="./img/download.png" alt="" class="w-full h-60">
             <div class="w-full rounded-b-xl min-h-150 bg-neutral-700 p-2">
                 <a href="JavaScript.html">
@@ -87,7 +89,7 @@
             </div>
         </div>
         <!--  -->
-        <div class="w-85 rounded-xl overflow-hidden">
+        <div class="w-85 rounded-xl overflow-hidden" data-aos="fade-down-left" data-aos-duration="1000">
             <img src="./img/Frameworks-for-React-JS.jpg" alt="" class="w-full h-60">
             <div class="w-full min-h-150 bg-neutral-700 p-2">
                 <a href="React.html">
@@ -101,7 +103,7 @@
             </div>
         </div>
         <!--  -->
-        <div class="w-85 rounded-xl overflow-hidden">
+        <div class="w-85 rounded-xl overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
             <img src="./img/typescript.png" alt="" class="w-full h-60">
             <div class="w-full rounded-b-xl min-h-150 bg-neutral-700 p-2">
                 <a href="TypeScript.html">
@@ -116,7 +118,7 @@
         </div>
         <!--  -->
         
-        <div class="w-85 rounded-xl overflow-hidden">
+        <div class="w-85 rounded-xl overflow-hidden" data-aos="zoom-in-up" data-aos-duration="1500">
             <img src="./img/hq720.jpg" alt="" class="w-full h-60">
             <div class="w-full rounded-b-xl min-h-150 bg-neutral-700 p-2">
                 <a href="Tailwind.html">
@@ -171,6 +173,7 @@
                 }
             }
         });
+    AOS.init();
     </script>
 </body>
 </html>
