@@ -177,7 +177,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  background-color: #272727;
+  background-color:#dedcdc;
 }
 
 /*
@@ -616,13 +616,25 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
+.bg-neutral-70{
+  background-color: #222222;
+}
 
 .bg-neutral-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity, 1));
+  background-color: #F5F0CD;
 }
 .bg-neutral-500{
-  background-color: #212121;
+  background-color: rgba(0, 0, 255, 0.675);
+}
+.bg-neutral-600{
+  background-color: #3b3b3b;
+}
+.benner{
+  background-image: url("https://graphicsfamily.com/wp-content/uploads/edd/2021/10/Business-Website-Banner-Design-scaled.jpg");
+  background-position: center;
+  /* background-repeat: no-repeat;
+  width: 100%;
+  height: 500px; */
 }
 
 .bg-white {
