@@ -433,11 +433,11 @@ video {
 .absolute{
   position: absolute;
 }
-.left-5{
-  left: 20px;
+.left-15{
+  left: 100px;
 }
-.top-5{
-  top: 20px;
+.top-15{
+  top: 100px;
 }
 
 .underline-color{
@@ -621,6 +621,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity, 1));
 }
+.bg-neutral-500{
+  background-color: #212121;
+}
+.carrot{
+  color: #FF675B;
+}
 
 .bg-white {
   --tw-bg-opacity: 1;
@@ -716,6 +722,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-6xl{
+  font-size: 60px;
+  margin: 3rem 0 2rem 0;
+}
 
 .font-medium {
   font-weight: 500;
@@ -763,6 +773,9 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-pink-600{
+  color: rgb(219 39 119);
 }
 
 .hover\:bg-gray-100:hover {
