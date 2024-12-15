@@ -430,10 +430,24 @@ video {
   white-space: nowrap;
   border-width: 0;
 }
+.absolute{
+  position: absolute;
+}
+.left-5{
+  left: 20px;
+}
+.top-5{
+  top: 20px;
+}
+
 .underline-color{
   text-decoration: underline;
   text-decoration-color: crimson;
   color:#26acfa ;
+}
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1)) /* #dc2626 */;
 }
 
 .mx-auto {
@@ -465,6 +479,9 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+.m-auto{
+  margin: auto;
 }
 
 .mt-5 {
@@ -509,6 +526,9 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+.w-500{
+  width: 50%;
 }
 
 .w-6 {
