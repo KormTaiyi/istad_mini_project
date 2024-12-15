@@ -642,6 +642,9 @@ video {
 .p-x{
   padding: 0.20rem 1rem;
 }
+.p-xy{
+  padding: 1.5rem;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
