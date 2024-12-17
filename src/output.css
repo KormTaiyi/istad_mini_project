@@ -177,7 +177,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  background-color:#dedcdc;
+  background-color:#272727;
 }
 
 /*
@@ -620,14 +620,11 @@ video {
   background-color: #222222;
 }
 
-.bg-neutral-700 {
-  background-color: #F5F0CD;
-}
 .bg-neutral-500{
-  background-color: rgba(0, 0, 255, 0.675);
+  background-color: #39a21ad0;
 }
 .bg-neutral-600{
-  background-color: #3b3b3b;
+  background-color: #222222;
 }
 
 .bg-white {
